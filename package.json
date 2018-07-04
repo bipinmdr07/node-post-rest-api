@@ -1,0 +1,19 @@
+{
+  "name": "post-rest-api",
+  "version": "1.0.0",
+  "description": "A simple rest api for post and comments",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bipin Manandhar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
